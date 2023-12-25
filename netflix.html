@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Netflix Pakistan - Watch TV Shows Online, Watch Movies Online</title>
+      <!-- <link rel="icon"" href="/images/icon.ico"/>
+      <script src="tailwind.config.js"></script> -->
+      <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script>
+            tailwind.config = {
+              theme: {
+                screens:{
+                  'mobile':'400px',
+                  'tablet' :'750px',
+                  'laptop': '950',
+
+                }
+                  }
+            }
+          </script>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+          <style>
+            h1,h4,p{
+                  font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+          </style>
+</head>
+<body>
+      <!-- Header  Section 1--> 
+      <div class="bg-[url('images/banner.jpg')] w-[100%] h-[100vh] bg-cover bg-center">
+            <div class="bg-[rgb(0,0,0,0.5)]  w-[100%] h-[100vh]">
+                  <header class="grid grid-cols-[30%_70%] max-w-[1300px] mx-auto items-center">
+                        
+                  <div>
+                        <figure class="tablet:max-w-[240px]">
+                              <img src="images/logo.png"/>
+                        </figure>
+                  </div>
+                  <div class="grid justify-end pr-5">
+                        <button class="bg-[#E50914] text-white bold rounded px-[14px] py-[6px] font-semibold text-sm hover:bg-red-700"><h1>Sign In</h1></button>
+                  </div>
+                  </header>
+                  <div class="max-w-[1200px] mx-auto py-[50px] mobile:py-[160px]">
+                        <!-- Hero Section -->
+                        <div class="text-white text-center">
+                              <h1 class="tablet:text-[45px] text-[25px] font-[900] px-2">Unlimited movies, TV shows, and more</h1>
+                              <h4 class="tablet:text-[20px] text-[15px] font-[500] py-5 px-2">Watch anywhere. Cancel anytime.</h4>
+                              <p class="tablet:text-[20px] text-[15px] font-[500] px-2">Ready to watch? Enter your email to create or restart your membership.</p>
+                        </div>
+                        <div>
+                              <!-- News letter of Hero Section -->
+                              <form  class="max-w-[700px] pt-6 grid tablet:grid-cols-[65%_auto] grid-cols-1 mx-auto text-white items-center px-[22px]">
+                                    <input type="text" placeholder="Email address" class="bg-[rgba(0,0,0,0.8)]  text-white font-semibold text-[18px] border-[0.3px]  border-[#636261] border-solid pl-3 py-3 my-2 rounded " />
+                                    <div>
+                              <div class="grid">
+                              <button style="font-family: Verdana, Geneva, Tahoma, sans-serif;" type="submit" class="bg-[#E50914] py-[12px]  text-white tablet:text-[20px] text-[16px] font-[700] rounded shadow-sm px-5  hover:bg-[rgb(193,17,25)] duration-300 mx-auto tablet:ml-[8px] justify-center">Get Started 
+                              <i class="fa fa-angle-right"></i></button>
+                        </div>
+                              </div>
+                              </form>
+                        </div>
+                  </div>
+
+            </div>
+      </div>
+<!-- Section no 2 -->
+      <div class="w-[100%] border-t-[8px] border-t-[#232323] bg-black">
+            <div class="grid tablet:grid-cols-2 grid-cols-1 tablet:py-[72px] py-[45px] max-w-[1200px]  mx-auto  items-center">
+                  <div class="text-white mx-[20px]">
+                        <h1 class="tablet:text-[40px] text-[26px] text-center tablet:text-left tracking-tight font-[900]">Enjoy on your TV</h1>
+                        <h4 class="tablet:text-[20px] text-[17px] pt-5 text-center tablet:text-left font-[500]">Watch on Smart TVs, Playstation, Xbox, Chromecast,<br> Apple TV, Blu-ray players, and more.</h4>
+                  </div>
+                  <div class="relative overflow-hidden">
+                        <video class="absolute top-[21%] left-[13%] max-w-[440px] z-[2]" autoplay="autoplay" loop="loop" muted="muted">
+                              <source src="images/video-tv.m4v">
+                        </video>
+                        <img src="images/tv.png " class="relative z-[10]"/>
+                  </div>
+            </div>          
+      </div>
+
+      <!-- Section no 3 -->
+      <div class="w-[100%] border-t-[8px] border-t-[#232323] bg-black">
+            <div class="grid tablet:grid-cols-2 grid-cols-1 tablet:py-[72px] py-[45px] max-w-[1200px]  mx-auto items-center">
+                  <div class="overflow-hidden order-2 tablet:order-1 grid relative">
+                        <img src="images/mobile.jpg " class=""/>
+                        <div class="text-white absolute w-[80%] left-[10%] tablet:w-[60%] tablet:left-[20%]  bottom-7 grid grid-cols-[20%_auto] rounded-[15px] border-[2px] border-double p-[10px] border-[#5A5A5A] bg-black items-center gap-[15px] ">
+                              <div>
+                                    <img src="images/book_cover.png" class="tablet:max-w-[55px] max-w-[40px]">
+                              </div>
+                              <div class="grid grid-cols-[80%_auto] items-center">
+                                    <div>
+                                          <h1 class="font-bold">Stranger Things<h1>
+                                          <h4 class="text-[#006BDE]">Downloading...</h4>
+                                    </div>
+                                    <div>
+                                          <img src="images/loader.gif"/>
+                                    </div>
+                                    
+                              </div>
+                        </div>
+                  </div>
+                  <div class="text-white mx-[20px] order-1 tablet:order-2">
+                        <h1 class="tablet:text-[40px] text-[26px] text-center tablet:text-left tracking-tight font-[900]">Download your shows to watch offline</h1>
+                        <h4 class="tablet:text-[20px] text-[17px]  pt-5 text-center tablet:text-left font-[500]">Save your favorites easily and always have something to watch.</h4>
+                  </div>
+            </div>          
+      </div>
+
+      <!-- Section no 4 -->
+
+      <div class="w-[100%] border-t-[8px] border-t-[#232323] bg-black">
+            <div class="grid tablet:grid-cols-2 grid-cols-1 tablet:py-[72px] py-[45px] max-w-[1200px]  mx-auto items-center ">
+                  <div class="text-white mx-[20px]">
+                        <h1 class="tablet:text-[40px] text-[26px] text-center tablet:text-left tracking-tight font-[900]">Watch <br> everywhere</h1>
+                        <h4 class="tablet:text-[20px] text-[17px] pt-5 text-center tablet:text-left font-[500]">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+                        </h4>
+                  </div>
+                  <div class="relative overflow-hidden">
+                        <video class="absolute top-[15%] left-[19%] tablet:max-w-[370px] max-w-[200px] z-[2]" autoplay="autoplay" loop="loop" muted="muted ">
+                              <source src="images/video-devices.m4v">
+                        </video>
+                        <img src="images/device-pile.png " class="relative z-[10]"/>
+                  </div>
+            </div>          
+      </div>
+
+            <!-- Section no 5 -->
+            <div class="w-[100%] border-t-[8px] border-t-[#232323] bg-black">
+                  <div class="grid tablet:grid-cols-2 grid-cols-1 tablet:py-[72px] py-[45px] max-w-[1200px]  mx-auto items-center">
+                        <div class="text-white mx-[20px] tablet:order-2">
+                              <h1 class="tablet:text-[40px] text-[26px] text-center tablet:text-left tracking-tight font-[900]">Create profiles for kids</h1>
+                              <h4 class="tablet:text-[20px] text-[17px] pt-5 text-center tablet:text-left font-[500]">Send kids on adventures with their favorite characters in a space made just for them—free with your membership.
+                              </h4>
+                        </div>
+                        <div class="relative overflow-hidden tablet:order-1">
+                              <img src="images/kids.png " class="relative z-[10]"/>
+                        </div>
+                  </div>          
+            </div>
+
+            <!-- FAQS SECTION-->
+            <!-- Section 6 -->
+            <div class="w-[100%] border-t-[8px] border-t-[#232323] bg-black">
+                  <div class=" tablet:pt-[72px] pt-[45px] max-w-[1200px]  mx-auto items-center">
+                        <div class="text-white mx-[20px]">
+                              <h1 class="tablet:text-[40px] text-[26px] text-center tracking-tight font-[900]">Frequently Asked Questions</h1>
+                        </div>
+                        <div class="text-white tablet:text-[22px] text-[18px] tracking-tight font-[500px] my-[20px] px-[25px]">
+                              <!-- faq 1 -->
+                              <div class="bg-[#2D2D2D] hover:bg-[#414141]">
+                                    <input type="checkbox" id="faq1" class="peer opacity-0">
+                                    <label for="faq1" class="grid grid-cols-[94%_auto] cursor-pointer pb-[22px] border-b-2 border-b-[black] px-[22px] items-center">
+                                          <h1>What is Netflix?</h1>
+                                          <div class="">
+                                          <i class="fa fa-plus"></i>
+                                    </div>
+                                    </label>
+                                    <div class=" px-[22px] max-h-0 overflow-hidden peer-checked:max-h-[500px] py-0 peer-checked:py-[22px] duration-500">
+                                          <p>
+                                                Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+                                                <br>
+                                                You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!
+                                          </p>
+                                    </div>
+                              </div>
+
+                              <!-- faq 2 -->
+                              <div class="bg-[#2D2D2D] hover:bg-[#414141] border-t-8 border-t-[black]">
+                                    <input type="checkbox" id="faq2" class="peer opacity-0">
+                                    <label for="faq2" class="grid grid-cols-[94%_auto] cursor-pointer pb-[22px] border-b-2 border-b-[black] px-[22px] items-center">
+                                          <h1>How much does Netflix cost?</h1>
+                                          <div class="">
+                                          <i class="fa fa-plus"></i>
+                                    </div>
+                                    </label>
+                                    <div class=" px-[22px] max-h-0 overflow-hidden peer-checked:max-h-[500px] py-0 peer-checked:py-[22px] duration-500">
+                                          <p>
+                                                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from Rs250 to Rs1,100 a month. No extra costs, no contracts.
+                                          </p>
+                                    </div>
+                              </div>
+
+                              <!-- faq 3 -->
+                              <div class="bg-[#2D2D2D] hover:bg-[#414141] border-t-8 border-t-[black]">
+                                    <input type="checkbox" id="faq3" class="peer opacity-0">
+                                    <label for="faq3" class="grid grid-cols-[94%_auto] cursor-pointer pb-[22px] border-b-2 border-b-[black] px-[22px] items-center">
+                                          <h1>Where can I watch?</h1>
+                                          <div class="">
+                                          <i class="fa fa-plus"></i>
+                                    </div>
+                                    </label>
+                                    <div class=" px-[22px] max-h-0 overflow-hidden peer-checked:max-h-[500px] py-0 peer-checked:py-[22px] duration-500">
+                                          <p>
+                                                Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                                                <br>
+                                                You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+                                          </p>
+                                    </div>
+                              </div>
+                              <!-- faq 4 -->
+                              <div class="bg-[#2D2D2D] hover:bg-[#414141] border-t-8 border-t-[black]">
+                                    <input type="checkbox" id="faq4" class="peer opacity-0">
+                                    <label for="faq4" class="grid grid-cols-[94%_auto] cursor-pointer pb-[22px] border-b-2 border-b-[black] px-[22px] items-center">
+                                          <h1>How do I cancel?                                          </h1>
+                                          <div class="">
+                                          <i class="fa fa-plus"></i>
+                                    </div>
+                                    </label>
+                                    <div class=" px-[22px] max-h-0 overflow-hidden peer-checked:max-h-[500px] py-0 peer-checked:py-[22px] duration-500">
+                                          <p>
+                                                Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+                                          </p>
+                                    </div>
+                              </div>
+                              <!-- faq 5 -->
+                              <div class="bg-[#2D2D2D] hover:bg-[#414141] border-t-8 border-t-[black]">
+                                    <input type="checkbox" id="faq5" class="peer opacity-0">
+                                    <label for="faq5" class="grid grid-cols-[94%_auto] cursor-pointer pb-[22px] border-b-2 border-b-[black] px-[22px] items-center">
+                                          <h1>What can I watch on Netflix?</h1>
+                                          <div class="">
+                                          <i class="fa fa-plus"></i>
+                                    </div>
+                                    </label>
+                                    <div class=" px-[22px] max-h-0 overflow-hidden peer-checked:max-h-[500px] py-0 peer-checked:py-[22px] duration-500">
+                                          <p>
+                                                Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+                                          </p>
+                                    </div>
+                              </div>
+
+                              <!-- faq 6 -->
+                              <div class="bg-[#2D2D2D] hover:bg-[#414141] border-t-8 border-t-[black]">
+                                    <input type="checkbox" id="faq6" class="peer opacity-0">
+                                    <label for="faq6" class="grid grid-cols-[94%_auto] cursor-pointer pb-[22px] border-b-2 border-b-[black] px-[22px] items-center">
+                                          <h1>Is Netflix good for kids?</h1>
+                                          <div class="">
+                                          <i class="fa fa-plus"></i>
+                                    </div>
+                                    </label>
+                                    <div class=" px-[22px] max-h-0 overflow-hidden peer-checked:max-h-[500px] py-0 peer-checked:py-[22px] duration-500">
+                                          <p>
+                                                The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.
+                                                Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+                                                </p>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- News letter of FAQ Section -->
+            <div class="max-w-[1200px] mx-auto py-[15px] pb-[60px]">
+                  
+                  <div class="text-white text-center">
+                        <p class="tablet:text-[20px] text-[15px] font-[500] px-2">Ready to watch? Enter your email to create or restart your membership.</p>
+                  </div>
+                  <div>     
+                        <form  class="max-w-[700px] grid tablet:grid-cols-[65%_auto] grid-cols-1 mx-auto text-white items-center  px-[22px] py-[8px]">
+                              <input type="text" placeholder="Email address" class="bg-[#0F0F0F]  text-white font-semibold text-[18px] border-[0.3px]  border-[#636261] border-solid pl-3 py-3 my-2 rounded " />
+                              <div>
+                        <div class="grid">
+                        <button style="font-family: Verdana, Geneva, Tahoma, sans-serif;" type="submit" class="bg-[#E50914] py-[12px]  text-white tablet:text-[20px] text-[16px] font-[700] rounded shadow-sm px-5  hover:bg-[rgb(193,17,25)] duration-300 mx-auto justify-center tablet:ml-[8px]">Get Started 
+                        <i class="fa fa-angle-right"></i></button>
+                  </div>
+            </div>
+      </div>
+            </div>
+            <!-- footer -->
+            <div class="w-[100%] border-t-[8px] border-t-[#232323] bg-black">
+                  <div class="tablet:py-[72px] py-[25px] max-w-[1200px]  mx-auto text-[#ccc] px-[20px]">
+                        <a href="https://help.netflix.com/en/contactus" class="underline tablet:text-[16px] text-[15px] font-[400]"><h1>Questions? Contact us.</h1></a>
+
+                        <div class="grid grid-cols-2 tablet:grid-cols-4 underline text-[14px] font-[500] py-[14px] items-center">
+                              <div>                  
+                              <a href="#" ><h1 class="pb-[12px]">FAQ</h1></a>
+                              <a href="#"><h1 class="pb-[12px]">Investor Relations                         </h1></a>
+                              <a href="#"><h1 class="pb-[12px]">Privacy</h1></a>
+                              <a href="#"><h1 class="pb-[12px]">Speed Test</h1></a>
+                        </div>
+
+                        <div>                  
+                              <a href="#" ><h1 class="pb-[12px]">Help Center</h1></a>
+                              <a href="#"><h1 class="pb-[12px]">Jobs</h1></a>
+                              <a href="#"><h1 class="pb-[12px]">Cookie Preferences</h1></a>
+                              <a href="#"><h1 class="pb-[12px]">Legal Notices</h1></a>
+                        </div>
+
+                        <div>                  
+                              <a href="#" ><h1 class="pb-[12px]">Account</h1></a>
+                              <a href="#"><h1 class="pb-[12px]">Ways to Watch</h1></a>
+                              <a href="#"><h1 class="pb-[12px]">Corporate Information</h1></a>
+                              <a href="#"><h1 class="pb-[12px]">Only on Netflix</h1></a>
+                        </div>
+
+                        <div>                  
+                              <a href="#" ><h1 class="pb-[12px]">Media Center</h1></a>
+                              <a href="#"><h1 class="pb-[12px]">Terms of Use</h1></a>
+                              <a href="#"><h1 class="pb-[12px]">Contact Us</h1></a>
+                        </div>
+                        </div>
+                        <div class="items-center">
+                              <div class="relative items-center">
+                              <i class="fa fa-language text-[20px] text-[white] absolute left-2 top-2"></i>
+                        </div>
+                              <select class="bg-[#0F0F0F] text-[16px] text-[white] font-[500] px-[35px] py-[6px] border border-[#ccc] rounded-md border-solid items-center">
+                                    <option>English</option>
+                                    <option>Urdu</option>
+                                    <option>Hindi</option>
+                              </select>       
+                        </div> 
+                        <h1 class="pb-[12px] text-[15px] font-[500] pt-[16px]">Netflix Pakistan</h1>
+                  </div>         
+            </div>
+</body>
+</html>
